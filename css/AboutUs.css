@@ -1,0 +1,193 @@
+.contentTitle {
+    color: black;
+    font-size: 72pt;
+    text-align: center;
+  }
+
+  .contentDescription {
+    color: black;
+    font-size: 36pt;
+    text-align: center;
+  }
+
+  .floatingQuote {
+    color: white;
+    font-size: 28pt;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 0.8;
+  }
+
+
+  .mainText {
+    color: white;
+    font-size: 22pt;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+
+  .nonheaderfiller {
+    height: 100px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .MainTextDiv {
+    padding: 3% 15% 3% 15%;
+    background-color: #0f4c81;
+    font-size: 14pt;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .IconsDiv {
+    background-color: white;
+  }
+
+  .TextDiv {
+    margin: 10px;
+    float: left;
+    width: 48%; background-color: #0f4c81; border-radius: 25px;
+    height: 518px;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+.centeredImageText {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-size: 48pt;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.titlesectiontext {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-size: 38pt;
+}
+
+hr.solid {
+  margin-top: -25px;
+  border-top: 1px solid white;
+}
+
+
+.InfoImgOverlap {
+  height: 900px;
+  background-size: cover;
+  font-size: 1.6em;
+  transition: all 0.1s ease 0s;
+}
+
+.InfoImgOverlap span{
+font-size: 1.8em;
+font-weight: bold;
+}
+
+#InfoImgOverlap1 {
+  height: auto;
+  width: 50%;
+  position: absolute;
+  margin-top: 150px;
+  left: 5%;
+  border-radius: 15px;
+}
+
+.teamIcon {
+  width: 20%;
+}
+
+#InfoImgOverlap2 {
+  height: auto;
+  width: 50%;
+  background: #0f4c81;
+  position: absolute;
+  color: white;
+  margin-top: 500px;
+  left: 45%;
+  border-radius: 15px;
+  padding: 3% 3% 3% 3%;
+}
+
+.InfoDivider {
+  border: white 1px solid;
+  border-radius: 10px;
+  width: 400px;
+  margin: 5px 0 10px 0;
+}
+
+
+
+/** Icon Section */
+.wrapper {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.IconsDiv {
+  background-color: white;
+  margin: 3%;
+}
+
+
+
+
+/**Incoming Animation
+*/
+/* Google Fonts */
+
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 28pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 0.8;   
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 21em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: white}
+  to{border-right-color: transparent;}
+}

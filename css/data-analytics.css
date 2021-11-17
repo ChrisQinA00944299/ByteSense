@@ -1,0 +1,170 @@
+/* Pantone 19-4052 TCX /  (NAVY BLUE) </br>
+Pantone 18-4015 TPG Mockingbird / #7C7E80 (GREY) </br>
+Pantone 1375 U #FF9940 (ORANGE) */
+
+.articleBG {
+  position: absolute;
+  width: 70%;
+  left: 4%;
+  top: 100%;
+}
+
+.articleBG2 {
+  z-index: 0;
+  position: absolute;
+  width: 80%;
+  left: 17%;
+  top: 205%;
+}
+
+.middle-article {
+  width: 80%;
+  height: auto;
+  margin: 125px 0;
+  padding: 0 25px;
+  left: 10%;
+  font-size: 1.7em;
+  position: relative;
+}
+
+.middle-article .divider {
+  border: black 1px solid;
+  width: 300px;
+  margin: 0 0 30px 0;
+}
+
+.getStarted {
+  width: auto;
+  color: black;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  background: #FF9940;
+  padding: 18px;
+  margin-bottom: 100px;
+  left: 40%;
+  border-radius: 5px;
+  position:relative;
+  border: none;
+  cursor: pointer;
+}
+
+.getStarted:hover {
+  color: white;
+  background: #0f4c81;
+}
+
+.category-container {
+  width: 100%;
+}
+
+.categories {
+  width: 25%;
+  position: relative;
+  padding: 25px;
+  text-align: center;
+  float: left;
+  z-index: 1;
+}
+
+.categories img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.categories a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.9em;
+}
+
+.categories a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.comp-insights {
+  left: 10%;
+}
+
+.trend-id {
+  left: 12.5%;
+}
+
+.decision-sup {
+  left: 15%;
+}
+
+.fl-eft {
+  float: left;
+}
+
+.customer-platforms{
+  width: 90%;
+  height: auto;
+  margin: 125px 0;
+  padding: 25px;
+  left: 5%;
+  position: relative;
+}
+
+.platform-logos {
+  width: 100%;
+}
+
+.logo {
+  width: 200px;
+  left: 5%;
+  float: left;
+  padding: 15px;
+  display: block;
+}
+
+.platform-logos::after {
+  content: "";
+  clear: both;
+  display: table;
+  vertical-align: middle;
+}
+
+
+.logo img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1017px) {
+  .categories img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .articleBG {
+    left: 2.5%;
+    width: 95%;
+    top: auto;
+  }
+
+  .articleBG2 {
+    top: 170%;
+  }
+
+  .middle-article {
+    font-size: 1.2em;
+    margin: 75px 0;
+  }
+
+  .categories a {
+    font-size: 1.3em;
+  }
+
+}
+
+@media screen and (max-width: 1100px) {
+  .articleBG2 {
+    top: 204%;
+  }
+
+}

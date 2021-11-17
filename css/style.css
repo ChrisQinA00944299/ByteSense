@@ -1,0 +1,86 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.form-container {
+    position: relative;
+    left: 5%;
+    bottom:100px;
+    width: 40%;
+    height: 100vh;
+
+}
+
+.contact-form {
+    position: absolute;
+    width: 80%;
+    height: 500px;
+    border-radius: 5px;
+  line-height: 10px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 8px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+
+  
+}
+
+.feedback-input {
+    border-radius: 5px;
+    line-height: 8px;
+    background-color: transparent;
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 7px;
+    margin-bottom: 7px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+  
+}
+
+.infoText{
+    text-align: center;
+    position: relative;
+    right: -60%;
+    bottom: -250px;
+    width: 20%;
+    height: 30vh;
+    
+    
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-top: 2rem;
+    border:none;
+    border-bottom: 1px solid black;
+}
+
+.submit {
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.submit:hover {
+    opacity: 0.6;
+}
+
+
+
+.presentationImage {
+    height: auto; 
+    width: auto; 
+    max-width: 1000px; 
+    max-height: 1000px;
+}
